@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Silpa Production — Contact</title>
+    <meta name="description" content="Contact Silpa Production." />
+    <link rel="icon" href="assets/media/logo.png" type="image/png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script defer src="assets/js/main.js"></script>
+    <script src="https://unpkg.com/lucide@0.344.0"></script>
+  </head>
+
+  <body>
+    <div class="transition is-on"></div>
+
+    <div class="layout">
+      <aside class="sidebar">
+        <a class="brand" href="index.html">
+          <img
+            src="assets/media/logo.png"
+            alt="Silpa Production Logo"
+            class="brand-logo"
+          />
+        </a>
+        <nav class="nav" aria-label="Primary">
+          <a href="index.html" data-page="index.html">Home</a>
+          <a href="work.html" data-page="work.html">Work</a>
+          <a href="services.html" data-page="services.html">Services</a>
+          <a href="about.html" data-page="about.html">About</a>
+          <a href="contact.html" data-page="contact.html">Contact</a>
+        </nav>
+      </aside>
+
+      <main class="main">
+        <div class="container">
+          <section class="section contact-hero">
+            <h1 class="cinematic-title">Let's build the cut.</h1>
+
+            <p class="lead">
+              Send: footage type, duration, reference style, deadline, and
+              platform.
+            </p>
+
+            <div class="btns">
+              <a
+                class="btn btn-icon"
+                href="mailto:silpaproduction2021@gmail.com"
+                aria-label="Send email"
+              >
+                <i data-lucide="mail"></i>
+              </a>
+
+              <a
+                class="btn btn-icon"
+                href="tel:+9779808402101"
+                aria-label="Call us"
+              >
+                <i data-lucide="phone"></i>
+              </a>
+
+              <a
+                class="btn btn-icon"
+                href="https://www.instagram.com/silpa_production/"
+                target="_blank"
+                rel="noopener"
+                aria-label="Follow on Instagram"
+              >
+                <i data-lucide="instagram"></i>
+              </a>
+            </div>
+          </section>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <small>© <span id="year"></span> Silpa Production</small>
+        </div>
+      </footer>
+    </div>
+
+    <script>
+      lucide.createIcons();
+    </script>
+  </body>
+</html>
